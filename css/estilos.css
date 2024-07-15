@@ -10,6 +10,7 @@ nav{
 }
 .mhorizontal{
     list-style: none;
+    
 }
 
 nav .col{
@@ -129,7 +130,7 @@ section{
 }
 .seccion1 .row .col:hover{
     transform: scale(1.1);
-    
+     
 }
 .seccion1 .negrita{
     font-weight: bold;
@@ -349,6 +350,60 @@ footer .col{
     padding: 10px 12px;
     cursor: pointer; 
     color: white; 
+}
+.botona{
+    width: 10%;
+    padding: 1em;
+    text-decoration: none;
+}
+.envio .re{
+    margin-top: -3em;
+
+}
+.botona .col a{
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 20px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.cont-re{
+    text-align: center;
+
+}
+.cont-re .col{
+    text-align: left;
+    width: 85%;
+}
+.cont-re .dis{
+    display: inline-block;
+    width: 40%;
+    margin: 0.5em;
+    padding-bottom: 7.8em;
+}
+
+.regalo .row{
+    width: 80%;
+    margin: 0 auto;
+}
+.regalo .col{
+    width: 30%;
+    vertical-align: top;
+
+}
+.regalo p{
+ margin-top: 1.5em;
+}
+.categorias .row{
+    text-align: center;
+}
+
+.categorias .row .col{
+    width: 43%;
+    border: black solid;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 1em;
 }
 @media (max-width:750px) {
     
