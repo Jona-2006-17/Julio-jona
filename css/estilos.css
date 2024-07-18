@@ -80,20 +80,24 @@ img{
     max-width: 100%;
 }
 nav .nav1{
-    margin-left: 4em;
+    margin-left: 1em;
     font-size: 2em;
     color: aliceblue;
-    width: 10%;
-
+    width: 3%;
 }
 .nav2 a{
     margin: 0 0.5em;
     
 }
-.nav2 {
+nav.col{
+    width: 60%;
+    border: black solid;
+}
+nav .nav2 {
+    text-align: center;
     margin: 0 0.5em;
     margin-left: 5em;
-    width: 80%;
+    width: 85%;
     
 }
 .nav2 .flechita{
