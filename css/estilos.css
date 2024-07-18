@@ -83,7 +83,8 @@ nav .nav1{
     margin-left: 4em;
     font-size: 2em;
     color: aliceblue;
-    width: 15%;
+    width: 10%;
+
 }
 .nav2 a{
     margin: 0 0.5em;
@@ -92,6 +93,7 @@ nav .nav1{
 .nav2 {
     margin: 0 0.5em;
     margin-left: 5em;
+    width: 80%;
     
 }
 .nav2 .flechita{
@@ -552,9 +554,139 @@ footer .col{
         
     }
     
-   
-}
+    
+    .envio1 .row{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    .envio1 .inic{
+        font-size: 0.6em;
+        margin-left: 0.3em;
+    }
 
+
+    .botones .row .col{
+        display:  inline-block;
+        padding: 0.7em;
+        border-radius: 10px 10px;
+        background-color: rgba(197, 171, 117, 0.856);
+        width: 88%;
+        cursor: pointer;
+        margin-left: 0.5em;
+        margin-bottom: 1em;
+    }
+    .cont-re .col{
+        text-align: left;
+        width: 85%;
+    }
+    .cont-re .desa{
+        display: none;
+    }
+
+
+    .mejores .im{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .mejores .col{
+        width: 60%;
+    }
+
+
+    .regalo .row{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .regalo .col{
+        width: 80%;
+        vertical-align: top;
+    
+    }
+    .regalo p{
+        margin-top: 1.5em;
+        margin-left: 1em;
+    }
+    .regalo input{
+        
+        margin-left: 1.3em;
+    }
+
+    .categorias img{
+        width: 100%;
+    }
+    .categorias .desa{
+        display: none;
+    }
+
+
+    .blogs .desa{
+        display: none;
+    }
+    .seccion4 .col{
+        display: inline-block;
+        width: 80%;
+    }
+    .seccion4 img{
+        border-radius: 20px 20px;
+    }
+    .seccion4 .mitad, .seccion4 .desa{
+        width: 100%;
+        display: none;
+    }
+}
+@media (min-width:400px) and (max-width:749px) {
+    header .row .titu{
+        margin: 0em auto;
+        width: 80%;
+        color: rgba(197, 171, 117, 0.856);
+        font-size: 2em;
+    }
+    .envio1 .row{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    .envio1 .inic{
+        font-size: 0.8em;
+        margin-left: 0.4em;
+    }
+
+    .botones .row .col{
+        display:  inline-block;
+        padding: 0.7em;
+        border-radius: 10px 10px;
+        background-color: rgba(197, 171, 117, 0.856);
+        width: 88%;
+        cursor: pointer;
+        margin-left: 0.5em;
+        margin-bottom: 1em;
+    }
+
+
+    .categorias img{
+        width: 100%;
+    }
+    .categorias .desa{
+        display: none;
+    }
+
+
+    .blogs .desa{
+        display: none;
+    }
+    .blogs .col{
+        width: 40%;
+    }
+    .blogs .row{
+        margin-left: 2em;
+    }
+   
+
+    
+    
+}
 @media (max-width:750px) {
     nav{
         width: 100%;
@@ -667,4 +799,64 @@ footer .col{
         display: inline-block;
         width: 40%;
     }
+}
+@media (min-width:751px) and (max-width:900px) {
+    .nav1{
+        display: none;
+    }
+    
+    
+    
+    nav .col{
+        width: 100%;
+        margin-left: 0.8em;
+    }
+
+    header .row .titu{
+        margin: 0em auto;
+        width: 80%;
+        color: rgba(197, 171, 117, 0.856);
+        font-size: 2.5em;
+        padding-top: 6em;
+    }
+
+    .seccion1  .col{
+        width: 44%;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .seccion3 .col{
+        width: 48%;
+    }
+   
+
+    
+    
+}
+@media (min-width:901px) and (max-width:1115px)  {
+   
+   
+    
+    nav .col{
+        width: 100%;
+        margin-left: 3em;
+    }
+    .nav1{
+        display: none;
+    }
+
+
+    .seccion1 .col{
+        display: inline-block;
+        width: 44%;
+    }
+    
+    
+    footer .col{
+        margin-left: 1em;
+        display: inline-block;
+        width: 22%;
+    }
+    
 }
